@@ -1,0 +1,83 @@
+.calc{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height:450px;
+    width:350px;
+    border:2px solid darkgrey;
+    background-color: blanchedalmond;
+    border-radius: 8px;
+    margin:auto;
+}
+button{
+    padding:14px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 25px;
+    height: 45px;
+    width:55px;
+    cursor: pointer;
+    background-color:aquamarine;
+    
+}
+.same{
+  background-color: orangered;
+  color:white;
+  font-size: 20px;
+}
+button:hover{
+    background-color: aqua;
+}
+.same:hover{
+    background-color:green;
+}
+input{
+    padding:14px;
+    width:250px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    background-color: skyblue;
+    text-align: right;
+    font-size: 20px;
+    color:white;
+    
+}
+input:hover{
+    background-color:rgb(8, 175, 241);
+}
+body{
+    background-color: black;
+}
+.off1{
+    background-color: darkred;
+    width: 100px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.off1:hover{
+    background-color: red;
+    
+}
+.on1{
+    background-color: darkgreen;
+    width:100px;
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.on1:hover{
+    background-color: green;
+}
+.same1{
+    background-color:white;
+  color:black;
+  font-size: 20px;
+}
+.same1:hover{
+    background-color:cadetblue;
+}
